@@ -8,7 +8,7 @@ function sendJoke() {
   	 //See API: https://sv443.net/jokeapi/v2/
      let url = 'https://v2.jokeapi.dev/joke/Any?type=twopart';
   
-     let exclude_explicit = $('#_oZ07r_clean_only').is(":checked");
+     let exclude_explicit = $('#' + BWProperties.namespace + '_clean_only').is(":checked");
   
      if(exclude_explicit) {
         url += '&blacklistFlags=explicit'; 
@@ -20,7 +20,7 @@ function sendJoke() {
     })
     .then((data) => {
       
-      let position = $('#' +BWProperties.namespace +'_position').find(":selected").val();
+      let position = $('#' + BWProperties.namespace +'_position').find(":selected").val();
       
       let content = `
         <div class="text-center">
