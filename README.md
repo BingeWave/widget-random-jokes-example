@@ -21,5 +21,5 @@ The focus of this tutorial is how read data from an API, put that data on screen
 
 ## Tutorial
 
-This code is accompanied by a tutorial that will further explain steps, which is available at: TBA
+This code is accompanied by a tutorial that will further explain steps, which is available at: [Develop A Jokes Game For Live Streams](https://medium.com/bingewave/develop-a-jokes-game-for-live-streams-148b0b80d3f1)
 
